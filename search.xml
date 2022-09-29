@@ -5,6 +5,19 @@
     
     <entry>
       <title></title>
+      <link href="/2022/09/29/ccc/"/>
+      <url>/2022/09/29/ccc/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ccc<br>date: 2022-09-29 19:45:25<br>变量定义：名称类型+变量名称<br>一般在开始时给变量定义一个初始值0<br>在程序中”&#x3D;“表示赋值 表示一个动作<br>（注意：scanf后要取地址）<br>（注意：A++和++Adequate区别）<br>在c语言中有无小数点完全不一样 （浮点数） 用”%f“<br>单目运算优先级最高 赋值这个动作是从左到右进行的</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/2022/09/21/1916/"/>
       <url>/2022/09/21/1916/</url>
       

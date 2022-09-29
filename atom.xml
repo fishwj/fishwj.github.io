@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-21T10:59:29.937Z</updated>
+  <updated>2022-09-29T12:06:27.615Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/09/29/ccc/"/>
+    <id>http://example.com/2022/09/29/ccc/</id>
+    <published>2022-09-29T11:45:25.424Z</published>
+    <updated>2022-09-29T12:06:27.615Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: ccc<br>date: 2022-09-29 19:45:25<br>变量定义：名称类型+变量名称<br>一般在开始时给变量定义一个初始值0<br>在程序中”&#x3D;“表示赋值 表示一个动作<br>（注意：scanf后要取地址）<br>（注意：A++和++Adequate区别）<br>在c语言中有无小数点完全不一样 （浮点数） 用”%f“<br>单目运算优先级最高 赋值这个动作是从左到右进行的</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: ccc&lt;br&gt;date: 2022-09-29 19:45:25&lt;br&gt;变量定义：名称类型+变量名称&lt;br&gt;一般在开始时给变量定义一个初始值0&lt;br&gt;在程序中”&amp;#x3D;“表示赋值 表示一个动作&lt;br&gt;（注意：scanf后要取地址）&lt;br&gt;（注意：</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title></title>
