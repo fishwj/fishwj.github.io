@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-29T12:06:27.615Z</updated>
+  <updated>2022-10-05T13:17:00.680Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/10/05/cccc/"/>
+    <id>http://example.com/2022/10/05/cccc/</id>
+    <published>2022-10-05T13:05:37.894Z</published>
+    <updated>2022-10-05T13:17:00.680Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: cccc<br>date: 2022-10-05 21:05:37<br>tags:<br>c语言中的循环运算<br>  循环语句：涉及if（if else的嵌套，级联） else while switch-case语句（记得加break）<br>且switch后的括号只能加整数， while （do-while）循环 【rand（expl）可用于<br>生成随机数， for循环可读作“对于” 是一个循环体 eg:for(count&#x3D;10;count&gt;0;count–)<br>表示在count比0大之前都要不断做–的循环（后面可加相应的语句）<br>  控制循环：常用break来结束循环，或者用continue来使循环在任意位置重新开始，也用goto expl<br>来使其跳转到相应的语句<br>  注（count表示变量，其需要相应分配空间的量）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: cccc&lt;br&gt;date: 2022-10-05 21:05:37&lt;br&gt;tags:&lt;br&gt;c语言中的循环运算&lt;br&gt;  循环语句：涉及if（if else的嵌套，级联） else while switch-case语句（记得加break）&lt;br&gt;且</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title></title>
