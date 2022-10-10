@@ -5,6 +5,32 @@
     
     <entry>
       <title></title>
+      <link href="/2022/10/10/ccc1/"/>
+      <url>/2022/10/10/ccc1/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: ccc1<br>date: 2022-10-6 20:30:14<br>tags:<br>sizof：是一种内存容量度量函数，功能是返回一个变量或者类型的大小（单位为字节）</p><p>scanf后的字符串最好别加空格</p><p>字符”1”同数字1并不相同 前者有其对于的ASCII值</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/10/10/cc/"/>
+      <url>/2022/10/10/cc/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: cc<br>date: 2022-9-30 21:21:24<br>tags:</p><p>浮点数（小数）<br>注：两个整数的运算只能为整数<br>浮点数分单精度 （6位以下 为float）和双精度 （double 对应%lf）<br>若需要输出整数 可利用强制转换类型（其他同理）<br>eg：（int）b&#x3D;a；<br>用强制转换类型时应注意溢出而导致的安全问题。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/2022/10/05/cccc/"/>
       <url>/2022/10/05/cccc/</url>
       
