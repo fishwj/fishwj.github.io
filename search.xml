@@ -5,6 +5,19 @@
     
     <entry>
       <title></title>
+      <link href="/2022/10/16/cccc-1/"/>
+      <url>/2022/10/16/cccc-1/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: cccc<br>date: 2022-10-16 10:26:38<br>逻辑运算：（优先级由上到下）<br>！：非<br>&amp;&amp;：且<br>||：或<br>注（赋值运算符的优先级最低）<br>条件运算：(三目运算符)<br>eg：count&#x3D;（count&gt;20）? count-10:count+10;       &#x3D;<br>    if (count&gt;20)<br>    count&#x3D;count-10;<br>    else<br>    count&#x3D;count+10<br>逗号运算：<br>eg：…i&#x3D;(3+4,5+6)…得i等于11</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/2022/10/10/ccc1/"/>
       <url>/2022/10/10/ccc1/</url>
       
