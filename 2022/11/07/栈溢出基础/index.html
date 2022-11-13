@@ -444,7 +444,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-10-16
+                    2022-11-07
                 </div>
                 
 
@@ -466,7 +466,24 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <hr>
-<p>title: cccc<br>date: 2022-10-16 10:26:38<br>逻辑运算：（优先级由上到下）<br>！：非<br>&amp;&amp;：且<br>||：或<br>注（赋值运算符的优先级最低）<br>条件运算：(三目运算符)<br>eg：count&#x3D;（count&gt;20）? count-10:count+10;       &#x3D;<br>    if (count&gt;20)<br>    count&#x3D;count-10;<br>    else<br>    count&#x3D;count+10<br>逗号运算：<br>eg：	…i&#x3D;(3+4,5+6)…	得i等于11</p>
+<p>title: 栈溢出的基础知识（以c语言为例）<br>date: 2022-10-28 16:27:21</p>
+<p><img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221107170407883.png" alt="image-20221107170407883"></p>
+<p>注(<strong>esp</strong>是栈顶指针寄存器，ebp是栈底指针寄存器，eax寄存器用来储存返回值)</p>
+<p>对于栈这个结构，他的栈顶永远是现在正在执行的命令所属的子函数对应的栈帧。即，如下</p>
+<img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221108103200907.png" alt="image-20221108103200907" style="zoom:50%;" />
+
+<p>对c语言来说，它会先把main函数压入栈内（由于栈总是先进的后出），但此时esp寄存器指向的就算其子函数的栈底。</p>
+<p>在程序执行结束要返回时：就要把被调用的函数的局部变量弹出栈外</p>
+<img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221108103615924.png" alt="image-20221108103615924" style="zoom:50%;" />
+
+<p>但并不是把他删除（复写），因为在压栈时esp在减小（对应栈从高地址向低地址增长）所以在返回时把esp推回原本。</p>
+<p>注（栈的范围仅由esp，ebp来标记）</p>
+<p>然后将caller的基地址弹出，储存到ebp中，这也ebp的信息得以恢复，栈顶就会指向返回地址</p>
+<img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221108105828766.png" alt="image-20221108105828766" style="zoom:50%;" />
+
+<p>（64位系统pop弹出8字节数据，32位pop弹出4字节数据）</p>
+<p>对于下面函数，它在子函数中只用了pop而没有先leave，是由于他原本就是对应的值，无须将esp的值给ebp，可以直接pop ebp他就已经回到其相应的位置。</p>
+<p><img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221108112915317.png" alt="image-20221108112915317"></p>
 
                 
             </div>
@@ -493,7 +510,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2022/10/16/cccc-1/">http://example.com/2022/10/16/cccc-1/</a>
+                    <a href="http://example.com/2022/11/07/%E6%A0%88%E6%BA%A2%E5%87%BA%E5%9F%BA%E7%A1%80/">http://example.com/2022/11/07/%E6%A0%88%E6%BA%A2%E5%87%BA%E5%9F%BA%E7%A1%80/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -702,7 +719,7 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2022/10/22/linux%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/">
+                <a href="/2022/11/07/elf%E6%96%87%E4%BB%B6/">
                     <div class="card-image">
                         
                         
@@ -719,7 +736,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-22
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-11-07
                         </span>
                         <span class="publish-author">
                             
@@ -739,7 +756,7 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/10/10/ccc1/">
+                <a href="/2022/11/07/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4/">
                     <div class="card-image">
                         
                         
@@ -756,7 +773,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-07
                             </span>
                         <span class="publish-author">
                             

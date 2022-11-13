@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo">
+    <meta name="keywords" content="pwn基础工具的使用, Hexo">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo</title>
+    <title>pwn基础工具的使用 | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">pwn基础工具的使用</h1>
                 </div>
             </div>
         </div>
@@ -444,7 +444,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-10-16
+                    2022-11-11
                 </div>
                 
 
@@ -465,8 +465,21 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <hr>
-<p>title: cccc<br>date: 2022-10-16 10:26:38<br>逻辑运算：（优先级由上到下）<br>！：非<br>&amp;&amp;：且<br>||：或<br>注（赋值运算符的优先级最低）<br>条件运算：(三目运算符)<br>eg：count&#x3D;（count&gt;20）? count-10:count+10;       &#x3D;<br>    if (count&gt;20)<br>    count&#x3D;count-10;<br>    else<br>    count&#x3D;count+10<br>逗号运算：<br>eg：	…i&#x3D;(3+4,5+6)…	得i等于11</p>
+                <p>pwntools：</p>
+<p>1：io&#x3D;process（“。&#x2F;……..”）——&gt;打开一个本地连接。</p>
+<p>2：io&#x3D;remote（“。&#x2F;……..”）——&gt;打开一个远程连接。</p>
+<p>3：io.sendline(b”…”)向连接中输入一个字节流.</p>
+<p>4:io.recvline()&#x2F;&#x2F;从连接中接受一行数据。</p>
+<p>5：io.interactive（）&#x2F;&#x2F;打开交互模式。<br>6：print（shellcraft.sh（））获取一个shell<br>7：print（asm（shellcraft.sh（）））将汇编改成机器码<br>注（64位要改成shellcraft.amd64.sh）用之前先context.arch&#x3D;“amd64”<br>如果是攻击64位机器的话。<br>注(改为recv就是接受所有)</p>
+<p>等…</p>
+<p>注(Base64，就是包括小写字母a-z、大写字母A-Z、数字0-9、符号”+”、”&#x2F;“一共64个字符的字符集,加上&#x3D;一共65个,在linux中可用echo … | base64 -d来解码)</p>
+<p>并且还可以用p32或p64来将我们的数据打包成字节型数据。</p>
+<p>IDA</p>
+<p>pwndbg:</p>
+<p>直接输gdb …就可以进入动态调试.</p>
+<p>gdb的栈是反着来的(上面低地址,下面高地址)</p>
+<p>1:   run:直接开跑;(一般先打断点 b+位置或者函数(main))</p>
+<p>2:</p>
 
                 
             </div>
@@ -493,7 +506,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2022/10/16/cccc-1/">http://example.com/2022/10/16/cccc-1/</a>
+                    <a href="http://example.com/2022/11/11/pwn%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BD%BF%E7%94%A8/">http://example.com/2022/11/11/pwn%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BD%BF%E7%94%A8/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -702,13 +715,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2022/10/22/linux%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/">
+                <a href="/2022/11/12/%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%88%B6/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="保护机制">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">保护机制</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -719,7 +732,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-22
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-11-12
                         </span>
                         <span class="publish-author">
                             
@@ -739,7 +752,7 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/10/10/ccc1/">
+                <a href="/2022/11/07/elf%E6%96%87%E4%BB%B6/">
                     <div class="card-image">
                         
                         
@@ -756,7 +769,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-07
                             </span>
                         <span class="publish-author">
                             

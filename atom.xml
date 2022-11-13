@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-16T02:35:58.802Z</updated>
+  <updated>2022-11-12T08:35:27.812Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,136 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>保护机制</title>
+    <link href="http://example.com/2022/11/12/%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%88%B6/"/>
+    <id>http://example.com/2022/11/12/%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%88%B6/</id>
+    <published>2022-11-12T04:00:34.000Z</published>
+    <updated>2022-11-12T08:35:27.812Z</updated>
+    
+    <content type="html"><![CDATA[<p>nx保护措施：</p><p><img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221112120240619.png" alt="image-20221112120240619"></p><p>即栈不可执行的保护措施。</p><p>aslr</p><p><img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221112120640320.png" alt="image-20221112120640320"></p><p>pie保护措施</p><p>bss，date，text地址的随机化，</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;nx保护措施：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221112120240619.png&quot; alt=&quot;image-2022111212024061</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>pwn基础工具的使用</title>
+    <link href="http://example.com/2022/11/11/pwn%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://example.com/2022/11/11/pwn%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <published>2022-11-11T07:12:39.000Z</published>
+    <updated>2022-11-12T08:06:04.881Z</updated>
+    
+    <content type="html"><![CDATA[<p>pwntools：</p><p>1：io&#x3D;process（“。&#x2F;……..”）——&gt;打开一个本地连接。</p><p>2：io&#x3D;remote（“。&#x2F;……..”）——&gt;打开一个远程连接。</p><p>3：io.sendline(b”…”)向连接中输入一个字节流.</p><p>4:io.recvline()&#x2F;&#x2F;从连接中接受一行数据。</p><p>5：io.interactive（）&#x2F;&#x2F;打开交互模式。<br>6：print（shellcraft.sh（））获取一个shell<br>7：print（asm（shellcraft.sh（）））将汇编改成机器码<br>注（64位要改成shellcraft.amd64.sh）用之前先context.arch&#x3D;“amd64”<br>如果是攻击64位机器的话。<br>注(改为recv就是接受所有)</p><p>等…</p><p>注(Base64，就是包括小写字母a-z、大写字母A-Z、数字0-9、符号”+”、”&#x2F;“一共64个字符的字符集,加上&#x3D;一共65个,在linux中可用echo … | base64 -d来解码)</p><p>并且还可以用p32或p64来将我们的数据打包成字节型数据。</p><p>IDA</p><p>pwndbg:</p><p>直接输gdb …就可以进入动态调试.</p><p>gdb的栈是反着来的(上面低地址,下面高地址)</p><p>1:   run:直接开跑;(一般先打断点 b+位置或者函数(main))</p><p>2:</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;pwntools：&lt;/p&gt;
+&lt;p&gt;1：io&amp;#x3D;process（“。&amp;#x2F;……..”）——&amp;gt;打开一个本地连接。&lt;/p&gt;
+&lt;p&gt;2：io&amp;#x3D;remote（“。&amp;#x2F;……..”）——&amp;gt;打开一个远程连接。&lt;/p&gt;
+&lt;p&gt;3：io.sendli</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/11/07/elf%E6%96%87%E4%BB%B6/"/>
+    <id>http://example.com/2022/11/07/elf%E6%96%87%E4%BB%B6/</id>
+    <published>2022-11-07T13:42:34.158Z</published>
+    <updated>2022-11-07T13:57:23.717Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: elf文件<br>date: 2022-11-07 21:42:34</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: elf文件&lt;br&gt;date: 2022-11-07 21:42:34&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/11/07/%E6%A0%88%E6%BA%A2%E5%87%BA%E5%9F%BA%E7%A1%80/"/>
+    <id>http://example.com/2022/11/07/%E6%A0%88%E6%BA%A2%E5%87%BA%E5%9F%BA%E7%A1%80/</id>
+    <published>2022-11-07T08:27:21.872Z</published>
+    <updated>2022-11-10T07:02:08.932Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: 栈溢出的基础知识（以c语言为例）<br>date: 2022-10-28 16:27:21</p><p><img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221107170407883.png" alt="image-20221107170407883"></p><p>注(<strong>esp</strong>是栈顶指针寄存器，ebp是栈底指针寄存器，eax寄存器用来储存返回值)</p><p>对于栈这个结构，他的栈顶永远是现在正在执行的命令所属的子函数对应的栈帧。即，如下</p><img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221108103200907.png" alt="image-20221108103200907" style="zoom:50%;" /><p>对c语言来说，它会先把main函数压入栈内（由于栈总是先进的后出），但此时esp寄存器指向的就算其子函数的栈底。</p><p>在程序执行结束要返回时：就要把被调用的函数的局部变量弹出栈外</p><img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221108103615924.png" alt="image-20221108103615924" style="zoom:50%;" /><p>但并不是把他删除（复写），因为在压栈时esp在减小（对应栈从高地址向低地址增长）所以在返回时把esp推回原本。</p><p>注（栈的范围仅由esp，ebp来标记）</p><p>然后将caller的基地址弹出，储存到ebp中，这也ebp的信息得以恢复，栈顶就会指向返回地址</p><img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221108105828766.png" alt="image-20221108105828766" style="zoom:50%;" /><p>（64位系统pop弹出8字节数据，32位pop弹出4字节数据）</p><p>对于下面函数，它在子函数中只用了pop而没有先leave，是由于他原本就是对应的值，无须将esp的值给ebp，可以直接pop ebp他就已经回到其相应的位置。</p><p><img src="C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-20221108112915317.png" alt="image-20221108112915317"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: 栈溢出的基础知识（以c语言为例）&lt;br&gt;date: 2022-10-28 16:27:21&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;C:\Users\star\AppData\Roaming\Typora\typora-user-images\image-</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/11/07/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4/"/>
+    <id>http://example.com/2022/11/07/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4/</id>
+    <published>2022-11-07T07:59:53.152Z</published>
+    <updated>2022-11-08T03:28:58.610Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: 汇编语言的一些基础指令<br>date: 2022-10-23 15:59:53<br>1：mov（赋值）<br>eg：move eax，1234h即为eax&#x3D;1234h；<br>    mov eax，[…]（注：大括号内表示取对应<br>内容的地址，类似于指针）</p><p>2：LEA<br>eg：LEA EBX，ASC；即为取ASC的地址存放与EBX寄存器中</p><p>3：PUSh（压栈）<br>eg：push[E]:将[E]的内容单元压入栈底</p><p>4：pop（弹栈）<br>ed：pop[0]:将栈顶的内容赋值给[0]单元<br>（总是将原来esp储存的值弹入ebp内）</p><p>5：LEAVE（ENTER同）<br>ed：leave&#x3D;<br>mov esp ebp<br>pop ebp</p><p>6：RET</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: 汇编语言的一些基础指令&lt;br&gt;date: 2022-10-23 15:59:53&lt;br&gt;1：mov（赋值）&lt;br&gt;eg：move eax，1234h即为eax&amp;#x3D;1234h；&lt;br&gt;    mov eax，[…]（注：大括号内表示取对应&lt;br</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/10/22/linux%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/"/>
+    <id>http://example.com/2022/10/22/linux%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</id>
+    <published>2022-10-22T07:40:30.734Z</published>
+    <updated>2022-10-22T08:11:05.007Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: linux的一些基本命令<br>date: 2022-10-22 15:40:30<br>（1）cd命令：<br>cd&#x2F; 切换到根目录          （根目录指逻辑驱动器的最上一级目录，它是相对子目录来说的。<br>打开“我的电脑”，双击C盘就进入C盘的根目录，双击D盘就进入D盘的根目录。其它类推。）<br>cd .. 切换到上一级目录<br>cd ~ 切换到home目录<br>cd -切换到上次访问的目录<br>（2）ls（查看）命令：<br>ls 查看当前目录 （在加上-a查看包括隐藏文件的所有文件）<br>ls&#x2F;usr 查看指定目录下的文件<br>（3）mkdir（创建）命令<br>mkdir xxx 在当前目录下创建一个名为xxx的文件<br>mkdir&#x2F;usr&#x2F;xxx 在&#x2F;usr处创建改文件<br>（4）rm（删除）命令</p><p>rm -f 文件    删除当前目录的的文件<br>rm -rf aaa    递归删除当前目录下的aaa目录<br>rm不仅可以删除目录，也可以删除其他文件或压缩包，为了方便大家的记忆，<br>无论删除任何目录或文件，都直接使用 rm -rf 目录&#x2F;文件&#x2F;压缩包<br>递归删除（删除改文件夹下所有文件，也包括该文件夹）<br>（5）mv（目录修改） cp（拷贝） find（查找）<br>（6）touch（新建目录） 修改文件利用vim<br>注（文件，目录文件，文件夹的概念不同。上述目录都为目录文件）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: linux的一些基本命令&lt;br&gt;date: 2022-10-22 15:40:30&lt;br&gt;（1）cd命令：&lt;br&gt;cd&amp;#x2F; 切换到根目录          （根目录指逻辑驱动器的最上一级目录，它是相对子目录来说的。&lt;br&gt;打开“我的电脑”，双</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title></title>
