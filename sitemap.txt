@@ -1,5 +1,9 @@
-http://example.com/2023/03/18/ret2csu%E4%BB%A5%E5%8F%8Aonegadget%E7%9A%84%E4%BD%BF%E7%94%A8/
+http://example.com/2023/03/22/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%94%BB%E5%87%BB/
+http://example.com/2023/03/21/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%BC%8F%E6%B4%9E/
+http://example.com/2023/03/19/carry/
+http://example.com/2023/03/19/c%200.0/
 http://example.com/2023/03/18/ret2libc3/
+http://example.com/2023/03/18/ret2csu%E4%BB%A5%E5%8F%8Aonegadget%E7%9A%84%E4%BD%BF%E7%94%A8/
 http://example.com/2023/03/18/x64rop%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/
 http://example.com/2022/11/11/pwn%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BD%BF%E7%94%A8/
 http://example.com/2022/11/26/%E6%A0%88%E6%BA%A2%E5%87%BA2-0/
