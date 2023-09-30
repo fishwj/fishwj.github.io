@@ -471,7 +471,8 @@
 <p>3：io.sendline(b”…”)向连接中输入一个字节流.<br>io.send（p32（…）） 将数据打包成32位<br>io.sendline（str（…））可以将数据打包成字符型发送（有时候接受的方式是str<br>4:io.recvline()&#x2F;&#x2F;从连接中接受一行数据。</p>
 <p>5：io.interactive（）&#x2F;&#x2F;打开交互模式。</p>
 <p>6：print（shellcraft.sh（））获取一个shell</p>
-<p>7：print（asm（shellcraft.sh（）））将汇编改成机器码<br>注（64位要改成shellcraft.amd64.sh）用之前先context.arch&#x3D;“amd64”<br>如果是攻击64位机器的话。<br>注(改为recv就是接受所有)</p>
+<p>7：print（asm（shellcraft.sh（）））将汇编改成机器码</p>
+<p>shellcode&#x3D;asm(shellcraft.amd64.linux.sh())<br>注（64位要改成shellcraft.amd64.sh）用之前先context.arch&#x3D;“amd64”<br>如果是攻击64位机器的话。<br>注(改为recv就是接受所有)</p>
 <p>8：在libc.so中获取偏移量可以使用命令：libc.sumbils[“函数1”] - libc.sysbol[“函数2”].</p>
 <p>hex(elf.got[“puts”])<br>-&gt;puts函数在got表中，表项的地址，这个地址所指向的值才是puts函数的真实地址。</p>
 <p>elf &#x3D; ELF(“.&#x2F;111”)-&gt;在ida中静态析</p>
